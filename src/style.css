@@ -1,0 +1,28 @@
+h1,
+p,
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 100px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.navigation-links {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+footer {
+  padding: 50px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
