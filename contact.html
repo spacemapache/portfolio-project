@@ -24,43 +24,66 @@
     <div class="navigation-links">
       <a href="index.html" class="homepage-link">Homepage</a>
       <a href="artwork.html" class="artwork-link">Artwork</a>
-      <a href="about.html" class="about-link">About me</a>
-      <a href="contact.html" class="contact-link">Contact me</a>
+      <a href="about.html" class="about-link">About</a>
+      <a href="contact.html" class="contact-link">Contact</a>
     </div>
 
-    <div class="row">
-      <div class="col-4">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Name"
-          aria-label="Name"
-        />
-      </div>
-      <div class="col-4">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Email"
-          aria-label="Email"
-        />
-      </div>
-    </div>
+     <div class="container">
+      <div class="form-input">
+          <div class="row">
+            <div class="col-6 mb-3">
+              <input
+                type="text"
+                placeholder="Name"
+                class="form-control"
+                id="name-input"
+              />
+</div>
+    
+            <div class="col-6 mb-3">
+              <input
+                type="email"
+                placeholder="Email"
+                class="form-control"
+                id="email-input"
+              />
+            </div>
+            <div class="col-12 mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+            </div>
+            </div>
+    </form>   
+            <div class="col-auto">
+              <input type="submit" value="Submit" class="btn btn-dark" />
+            </div>
+          
+ 
 
-    <div class="mb-2">
-     
-    <div class="mb-2">
-      <label for="exampleFormControlTextarea1" class="form-label"
-        >Message</label
-      >
-      <textarea
-        class="form-control"
-        id="exampleFormControlTextarea1"
-        rows="2"
-      >
-    </textarea>
-    </div>
-      <script
+   
+    <footer>
+      <a href="contact.html" class="contact-link">Contact</a>
+      <br />
+
+      <div class="socialmedia-icons">
+        <a href="https://instagram.com/iztheelf" class="socialmedia-links">
+          <i class="fa-brands fa-square-instagram"> </i>
+        </a>
+        <a href="https:youtube.com/@izzyherman" class="socialmedia-links">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <br />
+
+        <small>
+          Coded by
+          <a href="https://github.com/spacemapache" class="codedby-link"
+            >Isabelle Ang</a
+          >
+        </small>
+      </div>
+    </footer>
+    <script
       src="https://kit.fontawesome.com/9919d00e0a.js"
       crossorigin="anonymous"
     ></script>

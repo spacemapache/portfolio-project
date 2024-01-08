@@ -1,28 +1,112 @@
+:root {
+  --primary-color: #faf9f6;
+  --second-color: #acacac;
+  --third-color: #292929;
+  --main-font: "Playfair Display", serif;
+  --font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
 h1,
-p,
 footer {
   text-align: center;
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--main-font);
   padding: 100px;
   text-align: center;
   border: solid 1px black;
 }
 
-.navigation-links {
-  text-align: center;
-}
-
-img {
-  width: 300px;
-}
-
 footer {
   padding: 50px;
+  font-family: var(--main-font);
 }
 
-p {
-  font-family: "Poppins", sans-serif;
+.btn {
+  font-family: var(--font-family);
+  font-size: 13px;
+}
+
+.form-input {
+  font-family: var(--font-family);
+  font-size: 13px;
+}
+
+.form-control {
+  font-size: 13px;
+}
+
+.navigation-links {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.navigation-links a {
+  color: var(--second-color);
+  font-family: var(--font-family);
+  text-decoration: none;
+}
+
+.artwork-images {
+  max-width: 65%;
+  margin: 30px;
+}
+
+.aboutme-paragraph,
+.aboutme-photo {
+  padding-top: 80px;
+}
+
+.aboutme-paragraph {
+  font-family: var(--font-family);
+  color: var(--third-color);
+  font-size: 12px;
+  text-align: left;
+  max-width: 75%;
+}
+
+.artwork-description {
+  color: var(--third-color);
+  font-family: var(--font-family);
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.socialmedia-links {
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.contact-link {
+  color: var(--second-color);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.codedby-link {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+small {
+  color: var(--second-color);
+}
+
+@media (max-width: 480px) {
+  .artwork-images {
+    margin: 20px;
+  }
 }
