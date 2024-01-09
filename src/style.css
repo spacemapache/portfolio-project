@@ -19,12 +19,12 @@ h1 {
   font-family: var(--main-font);
   padding: 100px;
   text-align: center;
-  border: solid 1px black;
+  background-color: white;
 }
 
 footer {
   padding: 50px;
-  font-family: var(--main-font);
+  font-family: var(--font-family);
 }
 
 .btn {
@@ -103,10 +103,11 @@ footer {
 
 small {
   color: var(--second-color);
+  font-size: 12px;
 }
 
 @media (max-width: 480px) {
-  .artwork-images {
-    margin: 20px;
+  .aboutme-paragraph {
+    text-align: center;
   }
 }
