@@ -60,13 +60,17 @@ footer {
 }
 
 .artwork-images {
-  max-width: 65%;
+  max-width: 70%;
   margin: 30px;
 }
 
 .aboutme-paragraph,
 .aboutme-photo {
-  padding-top: 80px;
+  padding-top: 50px;
+}
+
+.aboutme-photo {
+  max-width: 80%;
 }
 
 .aboutme-paragraph {
@@ -107,7 +111,15 @@ small {
 }
 
 @media (max-width: 480px) {
+  .aboutme-photo {
+    max-width: 100%;
+  }
+
   .aboutme-paragraph {
-    text-align: center;
+    margin-left: 50px;
+  }
+
+  .navigation-links {
+    gap: 20px;
   }
 }
