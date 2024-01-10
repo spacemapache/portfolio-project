@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #fefcf6;
-  --second-color: #acacac;
-  --third-color: #292929;
+  --primary-color: #ebe9e2;
+  --second-color: #373737;
+  --third-color: #d7d0c7;
   --main-font: "Playfair Display", serif;
   --font-family: "Roboto Mono", monospace;
 }
@@ -20,7 +20,7 @@ h1 {
   font-size: 60px;
   padding: 100px;
   text-align: center;
-  background-color: #a6a998;
+  background-color: #91988a;
   color: var(--primary-color);
 }
 
@@ -34,9 +34,16 @@ small {
   font-size: 12px;
 }
 
-.btn {
+button {
   font-family: var(--font-family);
   font-size: 13px;
+  display: block;
+  padding: 5px 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: all 200ms ease-in-out;
+  background: #1d1d1b;
+  color: var(--third-color);
+  border: none;
 }
 
 .form-input {
@@ -71,7 +78,7 @@ small {
 }
 
 .artwork-description {
-  color: var(--third-color);
+  color: var(--second-color);
   font-family: var(--font-family);
   font-size: 12px;
   margin-top: 10px;
@@ -88,7 +95,7 @@ small {
 
 .aboutme-paragraph {
   font-family: var(--font-family);
-  color: var(--third-color);
+  color: var(--second-color);
   font-size: 12px;
   text-align: left;
   max-width: 75%;
