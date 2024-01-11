@@ -73,8 +73,9 @@ button {
   text-decoration: none;
 }
 
-.img-fluid {
-  margin-top: 20px;
+.artwork-images {
+  margin-top: 30px;
+  max-width: 70%;
 }
 
 .artwork-description {
@@ -129,5 +130,24 @@ button {
 
   .navigation-links {
     gap: 20px;
+    font-size: 13px;
+  }
+
+  .artwork-description {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .artwork-description {
+    font-size: 11px;
   }
 }
